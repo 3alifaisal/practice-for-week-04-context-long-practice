@@ -1,5 +1,6 @@
 function changeContext(func, obj) {
-  // Your code here
+  const bindedFunc = func.bind(obj);
+    return bindedFunc()
 }
 
 /*****************************************************************************/
